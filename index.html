@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="UTF-8">
+    </meta>
+
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title>Hicham's Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1> Dashboard</h1>
+        <input type="text" id="city-input" placeholder="Type a city">
+        <button onclick="getWeather()">Get the Weather</button>
+        <div id="Weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="weather-description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
